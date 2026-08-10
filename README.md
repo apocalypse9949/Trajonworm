@@ -1,5 +1,7 @@
 
 
+
+
 ##  Warning !!
 Please remember that these are live and dangerous malware! Do NOT run them unless you are absolutely sure of what you are doing! They are to be used only for educational purposes only. !!!
 I highly recommend reviewing these files on a dedicated Virtual Machine that has no Internet access. If you are not careful, you will infect yourself or others with dangerous malware!!!
@@ -21,7 +23,7 @@ Use this below command to run the Demon.cpp
 
   g++ -o GhostNet GhostNet.cpp -lssh
 
-  ./GhostNet.cpp
+  ./GhostNet
 ```
 Install GhostNet libs  with ./install.sh
     
@@ -42,4 +44,3 @@ For Debian-based systems:
 sudo apt update
 sudo apt install libssh-dev
 ```
-
